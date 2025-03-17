@@ -44,8 +44,6 @@ public class HelloWorld extends LinearOpMode {
         waitForStart();
 
         while (opModeIsActive()) {
-
-
             if (gamepad1.b && !wasBPressed) {
 
                 if (armDown) {
@@ -72,6 +70,9 @@ public class HelloWorld extends LinearOpMode {
                 }
 
 
+            }
+            if (gamepad1.a && !wasAPressed) {
+                if
             }
 
 
